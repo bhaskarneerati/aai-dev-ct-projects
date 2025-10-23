@@ -152,11 +152,4 @@ Excerpt from chat file:
 ## 👩‍💻 Author & Maintainers
 **Bhaskar** — AI Agent Builder & Architect
 
----
-
-## 🪪 License
-
-This project is licensed under the **MIT License**.  
-See the [LICENSE](./LICENSE) file for details.
-
 > _Designed for clarity, observability, and extensibility — a foundation for reliable RAG systems._
