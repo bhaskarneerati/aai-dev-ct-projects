@@ -152,4 +152,7 @@ Excerpt from chat file:
 ## 👩‍💻 Author & Maintainers
 **Bhaskar** — AI Agent Builder & Architect
 
+#### Refernces:
+Ready Tensor’s git hub repo - [rt-aaidc-project1-template](https://github.com/readytensor/rt-aaidc-project1-template).
+
 > _Designed for clarity, observability, and extensibility — a foundation for reliable RAG systems._
