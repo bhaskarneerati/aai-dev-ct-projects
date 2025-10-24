@@ -14,7 +14,7 @@ The **RAG Assistant** is a modular Retrieval-Augmented Generation (RAG) system b
     ├── logs/               # session logs
     ├── app.py              # Main RAG assistant CLI application
     ├── vectordb.py         # Vector database wrapper using Chroma & HuggingFace embeddings
-    ├── logger.py           # Custom logger with colored output, file logging, and traceback support
+    ├── logger.py           # Custom logger output, file logging, and traceback support
 ├── requirements.txt        # Python dependencies
 ├── .env.example            # Template for environment variables
 └── README.md               # This guide
@@ -102,7 +102,7 @@ Each run creates two files under \`logs/\`:
 |--------|----------------|
 | \`app.py\` | CLI entry point, orchestrates document loading, retrieval, and LLM invocation |
 | \`vectordb.py\` | Handles chunking, embedding, and semantic search using ChromaDB |
-| \`logger.py\` | Manages colored terminal logs, file logging |
+| \`logger.py\` | Manages terminal logs, file logging |
 
 ### Execution Flow
 1. Initialize LLM client and VectorDB  
@@ -112,7 +112,7 @@ Each run creates two files under \`logs/\`:
 5. Retrieve top relevant chunks  
 6. Construct research-style prompt  
 7. Invoke LLM, log full prompt & result  
-8. Display concise output with color-coded feedback  
+8. Display concise output
 
 ---
 
